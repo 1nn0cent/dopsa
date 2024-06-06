@@ -1,6 +1,6 @@
 say1 = input()
 say2 = input()
 say3 = input()
-print(say1)
-print(say2)
 print(say3)
+print(say2)
+print(say1)
