@@ -1,15 +1,16 @@
 M = int(input())
 N = int(input())
-english = set()
-german = set()
-
-for _ in range(M):
-   english.add(input())
-for _ in range(N):
-    german.add(input())
-single = len(english.symmetric_difference(german))   
-
-if single > 0:
-    print(single)
-else:
+student = set()
+unique = set()
+for _ in range(M+N):
+    surname = input()
+    if surname not in student:
+        student.add(surname)
+    elif surname not in unique:
+        unique.add(surname)
+count = len(student)-len(unique)
+if count == 0:
     print('NO')
+else:
+    print(count)
+
