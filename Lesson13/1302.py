@@ -7,7 +7,7 @@ for i in range(int(input())):
         dict[name] = [num]
 
 for i in range(int(input())):
-    key = input()
+    name = input()
     if name in dict:
         print(*dict[name])
     else:
