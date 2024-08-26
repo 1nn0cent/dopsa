@@ -13,7 +13,7 @@ def print_receipt():
     
     total_cost = sum(cost for _, cost in items)
     
-    print(f"Чек №{receipt_number}. Количество товаров: {len(items)}.")
+    print(f"Чек {receipt_number}. Количество товаров: {len(items)}.")
     
     for item_name, item_cost in items:
         print(f"{item_name} - {item_cost:.2f} ")
