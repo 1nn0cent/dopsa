@@ -1,6 +1,6 @@
-import pymorphy2
+import pymorphy3
 import sys
-morph = pymorphy2.MorphAnalyzer()
+morph = pymorphy3.MorphAnalyzer()
 newdata = ' '
 nouns_with_counts = {}
 data = list(map(str.strip, sys.stdin))

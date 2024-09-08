@@ -1,4 +1,4 @@
-from pymorphy2 import MorphAnalyzer
+from pymorphy3 import MorphAnalyzer
 from sys import stdin
  
 s = stdin.read().lower()

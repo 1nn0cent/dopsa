@@ -1,7 +1,7 @@
-import pymorphy2
+import pymorphy3
  
 i = 99
-w = pymorphy2.MorphAnalyzer().parse('бутылка')[0]
+w = pymorphy3.MorphAnalyzer().parse('бутылка')[0]
  
 while i:
  
